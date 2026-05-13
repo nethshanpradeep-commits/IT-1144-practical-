@@ -1,0 +1,79 @@
+             *{padding: 0;
+               margin: 0;
+               box-sizing: border-box;
+            }
+            .w{display: flex;
+                justify-content: space-between;
+                background-color:#8f1137;
+                padding: 20px;
+                align-items: center;
+            }
+        .logo{font-size: 24px;
+             font-weight:bold;
+              color:#25baae;
+             }
+             span{color: rgb(164, 230, 21);}
+             .e{list-style: none;
+                display: flex;
+                align-items: center;
+                
+                    }
+            li{margin:0px 20px 0px 20px;}
+            .e a{text-decoration: none;
+                color:rgba(218, 161, 4, 0.679);
+                font-weight: 500;
+				
+
+            }
+            .btn a{background-color: #0b3385;
+                padding: 10px;
+                border-radius: 10px;
+                color:rgb(252, 252, 252);
+
+            }
+            .h{height: 45vh;
+		
+                color: rgb(209, 61, 61);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 0 20px;
+				
+
+            }
+
+            .h h1{font-size: 48px;
+                  margin-bottom: 10px;
+                  color: rgb(0, 0, 0);
+            }
+            .h p{color: #0b3385;
+                  font-size: 19px;
+			}
+            
+
+        .b{
+            margin-top: 20px;
+            padding: 7px 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 20px;
+            background-color:rgb(175, 14, 108) ;
+            cursor: pointer;
+            transition: 0.3s;
+            
+
+        }
+     
+     .v{display:flex;
+        margin:10x;
+        padding: 10px;
+        justify-content:center;}
+
+      .u{padding: 1px;
+        margin:10px;
+          border-radius:10px;
+        border: 5px solid;}
+ a:hover{color:red;}
+
+ 
