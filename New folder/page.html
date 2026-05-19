@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+   
+    <title>Glassmorphism Login Page</title>
+    <style>
+        /* මූලික සැකසුම් */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            /* පසුබිම් රූපය ඇතුළත් කිරීම */
+            background: url('https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&q=80&w=1000') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* මැද තිබෙන Login Box එක */
+        .login-box {
+            width: 400px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1); /* පෙට්ටිය විනිවිද පෙනෙන ලෙස සකස් කිරීම */
+            backdrop-filter: blur(15px); /* පිටුපස ඇති දේ බොඳ (Blur) කිරීම */
+            border-radius: 20px; /* කොන් වටකුරු කිරීම */
+            border: 1px solid rgba(255, 255, 255, 0.2); /* සිහින් දාරයක් එක් කිරීම */
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+            color: white;
+            text-align: center;
+        }
+
+        .login-box h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .login-box p {
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            opacity: 0.8;
+        }
+
+        /* Input ක්ෂේත්‍ර සකස් කිරීම */
+        .input-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            outline: none;
+            color: white;
+            font-size: 1rem;
+        }
+
+        /* Placeholder වල වර්ණය වෙනස් කිරීම */
+        .input-group input::placeholder {
+            color: #ddd;
+        }
+
+        /* "Remember me" කොටස */
+        .options {
+            display: flex;
+            align-items: center;
+            font-size: 0.85rem;
+            margin-bottom: 20px;
+        }
+
+        .options input {
+            margin-right: 8px;
+        }
+
+        /* Login Button එක */
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(to right, #b9f2ff, #20e3b2); /* රූපයේ ඇති පරිදි gradient වර්ණ */
+            border: none;
+            border-radius: 10px;
+            color: #333;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .login-btn:hover {
+            opacity: 0.9;
+            transform: scale(1.02);
+        }
+
+        /* Signup ලින්ක් එක */
+        .signup-text {
+            margin-top: 20px;
+            font-size: 0.85rem;
+        }
+
+        .signup-text a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer-text {
+            margin-top: 30px;
+            font-size: 0.7rem;
+            opacity: 0.6;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-box">
+        <h2>Login</h2>
+        <p>Welcome back please login to your account</p>
+
+        <form>
+            <div class="input-group">
+                <input type="text" placeholder="User Name" required>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" placeholder="Password" required>
+            </div>
+
+            <div class="options">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember me</label>
+            </div>
+
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+
+        <div class="signup-text">
+            Don't have an account? <a href="#">Signup</a>
+        </div>
+
+        <div class="footer-text">
+            Created by YourName
+        </div>
+    </div>
+
+</body>
+</html>
