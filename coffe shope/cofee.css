@@ -1,0 +1,183 @@
+	body{
+		
+			
+			height: 100vh;
+			padding: 0;
+			margin: 0;
+			
+		
+		}
+		.cont{
+		
+			background-image:url("www.jpg");
+			background-size:cover;
+			background-attachment: fixed;
+			height: 100vh;
+			width: 100%;
+		
+		}
+	
+		
+			
+		
+		td{
+		
+			text-align: center;
+			font-size: 1.1em;
+		
+		}
+		
+			.tbl{
+			
+				width: 400px;
+				height: 200px;
+				backdrop-filter: blur(10px);
+				
+				padding:10px;
+				position: absolute;
+				top:120px;
+				left:80px;
+				
+				
+			
+			}
+			
+			.nav{
+			     
+				display: flex;
+				width: 100%;
+				justify-content: space-between;
+				background-color:black;
+				height: 100px;
+			
+			}
+			
+			.logo{
+				margin: 12px;
+				width: 80px;
+				height: 80px;
+			
+			}
+			
+			.nav-list{
+			
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 10px;
+				margin 0;
+				gap: 15px;
+				height: 20px;
+				list-style: none;
+				margin-right: 40px;
+				border-radius: 5px;
+				
+				background-color: lightblue;
+			
+			}
+			li{
+			
+				padding: 5px;
+				background-color: black;
+				border-radius: 7px;
+			
+			}
+			li:hover{
+			
+				background-color: skyblue;
+			
+			}
+			
+			a{
+			
+				text-decoration: none;
+				color: white;
+			
+			}
+			
+			.table{display:flex;
+			justify-content:center;
+			}
+			
+			.cnt{
+			
+				width: 100%;
+				display: flex;
+				justify-content: center;
+			
+			}
+			
+			.form-cont{
+			
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				width: 300px;
+				height: 350px;
+				border: 1px solid black;
+				margin-top:30px;
+				backdrop-filter: blur(10px);
+				border-radius: 10px;
+				color: white;
+				gap: 5px;
+			
+			}
+			.login{
+			
+				margin: 0;
+				padding: 0;
+			
+			}
+			.inps{
+			
+				width: 260px;
+				height: 40px;
+				border-radius: 10px;
+				
+				padding: 2px;
+				background-color: transparent;
+				padding: 2px;
+				color: white;
+			
+			}
+			.inps::placeholder{
+			
+				color: white;
+			
+			}
+			
+			.wlcm{
+			
+				font-size: 0.8em;
+				margin: 10px;
+			
+			}
+			.logBtn{padding:5px;
+			        border-radius:10px;
+					width:100px;
+					background-color:lightblue;
+			         transition:0.3s;
+			}
+			.logBtn:hover{transform:translatey(-3px);}
+			
+			.card{
+			
+				position: absolute;
+				top: 550px;
+				left: 680px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border-radius: 100%;
+				overflow: hidden;
+				border: 2px solid red;
+			
+			}
+			
+			.im{
+			
+				width: 150px;
+				height: 150px;
+			
+			}

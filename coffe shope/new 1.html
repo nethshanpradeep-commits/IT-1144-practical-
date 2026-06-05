@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title></title>
+		<link rel="stylesheet" href="cofee.css">
+		
+	
+	</head>
+
+	<body>
+		
+		<nav class="nav">
+			<img class="logo" src="cof.png">
+			<ul class="nav-list">
+			
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			
+			</ul>
+		
+		</nav>
+		<div class="cont">
+		<table border=1 class="tbl" id="tbll">
+		
+			<tr class="hds">
+			
+				<th>PRODUCTS</th>
+				<th>price</th>
+				<th> with cream</th>
+			
+			</tr>
+			
+			<tr>
+			
+				<td>Coffee IBF</td>
+				<td>250</td>
+				<td>300</td>
+			
+			</tr>
+			
+			<tr>
+			
+				<td>Mocha IBF</td>
+				<td>300</td>
+				<td>350</td>
+			
+			</tr>
+			
+			<tr>
+			
+				<td>Caramel IBF</td>
+				<td>250</td>
+				<td>350</td>
+			
+			</tr>
+		
+		</table>
+		<div class="cnt">
+		<div class="form-cont">
+			<h1 class="login">Night Coffee Shope</h1>
+			<h6 class="wlcm">Welcome TO coffe shope</h6>
+			
+			<input type="text" class="inps" placeholder="PRODUCTS" id="un">
+			<input type="password" class="inps" placeholder="QUANTITY">
+			
+			<label class="chlbl"><input type="checkbox" class="chbx">AGREE </label>
+			
+			<button class="logBtn" onclick=loga()>SUBMINT</button>
+			<h5 class="sgup">THANK YOU</h5>
+			
+		
+		</div>
+		</div>
+		
+		<div class="card">
+		
+			<img src="images.jpg" class="im">
+		
+		</div>
+		
+		</div>
+		
+		<script >
+		function loga(){
+			
+				let tbl = document.getElementById("tbll")
+			    tbl.style.backgroundColor="red"
+				
+				let inp = document.getElementById("un").value;
+				alert("you bought "+ inp);
+				
+				}
+		
+		</script>
+		
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
