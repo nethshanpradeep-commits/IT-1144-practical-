@@ -1,0 +1,76 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  list-style: none;
+  
+}
+
+body{background:linear-gradient(rgba(0,0,0,0.1),
+	   rgba(0,0,0,0.1)),url("img/download (2).jpg");
+    height: 95%;
+    background-position: center;
+    
+    background-size:cover;
+   
+    }
+
+    .nav-bar3{color: antiquewhite;
+      height: 7%;;   
+      display: flex; 
+       justify-content: space-between;
+       backdrop-filter: blur(30px); 
+    }
+
+      
+.ul{display:flex;
+    justify-content: flex-end;
+    margin:20px;}
+    
+.ul li a{
+    padding: 15px;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+}
+.ul li a:hover{color: rgb(243, 255, 14);}
+
+.img{width: 180px;
+       height: 180px;
+      border:3px solid white;
+      border-radius: 100%;
+  }
+
+.about{display: flex;
+        justify-content: flex-start;
+    margin: 40px;
+    border-radius: 70px 80px 80px 80px;
+backdrop-filter: blur(30px);}
+
+.P{font-size: 25PX;}
+
+.a{color:wheat;
+    padding: 20px;}
+
+   .contac{color: white;
+              margin: 20px;
+              padding: 20px;
+              background-color:rgba(227, 65, 65, 0.132);
+            backdrop-filter: blur(30px);
+        width: 380px;
+    border-radius: 15px;}
+
+.name{padding: 10px;
+margin: 2px;}
+
+
+.button-portfolio{margin: 20px;
+         padding: 10px;
+        border-radius: 20px;
+         border: 1px solid rgb(131, 255, 15);
+         background-color: rgba(14, 126, 20, 0.815);
+         backdrop-filter:blur (10px);}
+
+.button-portfolio:hover{background-color: rgb(146, 62, 20);
+                         box-shadow: 2px 2px 2px; }
+

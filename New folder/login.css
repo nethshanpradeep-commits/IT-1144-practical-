@@ -1,0 +1,96 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            
+        }
+
+body{background:linear-gradient(rgba(0,0,0,0.4),
+	   rgba(0,0,0,0.2)),url("img/333.jpg");
+    height: 95%;
+    background-position: center;
+    
+    background-size:cover;}
+
+.had{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form{
+    
+    border: 2px solid #39FF14;
+    border-radius: 15px;
+    padding: 0 40px 20px 40px;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(255,255,255,0.2);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4PX 6PX 0 rgb(0, 202, 64);
+
+    
+}
+.log{padding-top: 0px;;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    font-size:37px;}
+p{color: azure;}
+
+.input{ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+margin-top: 40px;
+width: 100%;}
+
+.tex{width: 100%;
+    border:1px solid rgb(4, 253, 0);
+height: 35px;
+border-radius:9px;
+font-size: 1.em;
+}
+.tex:hover{box-shadow: 5px 5px 15px;}
+
+.login-btn{width: 35%;
+  padding:2%;
+    border-radius: 20px;
+    border: 1px solid greenyellow;
+background-color: aqua;}
+
+
+.login-btn:hover{background-color: rgba(25, 255, 186, 0.537);
+                   box-shadow: 5px 5px 14px;}
+                      
+
+.h1{margin-bottom: 1px;
+    font-size: 50px;
+    font-weight: bold;
+     color: rgb(255, 240, 31);
+     text-shadow: 2px 2px 0 black;
+    font-family: "Times New Roman", Times, serif;}
+
+    .p{margin-bottom: 10px;
+        font-size: 27px;
+        text-shadow: 2px 2px 0 black;
+             color: rgb(255, 255, 255);
+            font-family: "Times New Roman", Times, serif;}
+
+    .welcome{color:rgb(255, 255, 255);
+        padding:20px;
+        font-size: 23px;
+    
+                                }
+
+.icon{width: 20px;
+    margin:  3px;
+    height: 20px;}
